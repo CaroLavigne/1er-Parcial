@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+//Paola Carolina Peña Ibarra 362323156
 int main() {
     double cantidad_invertir, interes_mensual;
     int meses_invertir;
