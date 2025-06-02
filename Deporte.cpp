@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-// DeporteConBalon
+//Paola Carolina Pe帽a Ibarra
 class DeporteConBalon {
 public:
     // Atributos
@@ -12,17 +12,17 @@ public:
     string terrenoJuego;
     int tiempoJuego; // en minutos
     
-    // M閠odos
+    // M茅todos
     void mostrarInfoDeporte() {
         cout << "\nDeporte: " << nombre << endl;
         cout << "Jugadores: " << jugadores << endl;
-        cout << "Tama駉 del bal髇: " << tamanoBalon << " cm" << endl;
+        cout << "Tama帽o del bal贸n: " << tamanoBalon << " cm" << endl;
         cout << "Terreno de juego: " << terrenoJuego << endl;
-        cout << "Duraci髇 del juego: " << tiempoJuego << " minutos" << endl;
+        cout << "Duraci贸n del juego: " << tiempoJuego << " minutos" << endl;
     }
 };
 
-// Clases derivadas seg鷑 extremidad para golpear el bal髇
+// Clases derivadas seg煤n extremidad para golpear el bal贸n
 class DeportePie : public DeporteConBalon {
 public:
     DeportePie() {
@@ -30,7 +30,7 @@ public:
     }
     
     void patear() {
-        cout << "Acci髇 de patear el bal髇" << endl;
+        cout << "Acci贸n de patear el bal贸n" << endl;
     }
 };
 
@@ -41,7 +41,7 @@ public:
     }
     
     void lanzar() {
-        cout << "Acci髇 de lanzar el bal髇" << endl;
+        cout << "Acci贸n de lanzar el bal贸n" << endl;
     }
 };
 
@@ -59,10 +59,10 @@ public:
 int main() {
 	
     DeportePie futbol;
-    futbol.nombre = "F鷗bol";
+    futbol.nombre = "F煤tbol";
     futbol.jugadores = 11;
     futbol.tamanoBalon = 22;
-    futbol.terrenoJuego = "Campo de c閟ped";
+    futbol.terrenoJuego = "Campo de c茅sped";
     futbol.tiempoJuego = 90;
     futbol.mostrarInfoDeporte();
     futbol.patear();
