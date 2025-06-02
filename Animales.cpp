@@ -2,6 +2,7 @@
 usin namespace std;
 class Animal
 {
+	//Paola Carolina Peña Ibarra
 	public:
 	//Atributos
 	string especie;
@@ -13,7 +14,7 @@ class Animal
 		cout << "Especie: " << especie << endl;
 		cout << "Tamano: " << tamano << "Metros" << endl;
 		cout << "Peso: " << peso << "kg" << endl;
-		cout << "Edad: " << edad << "a�os" << endl;
+		cout << "Edad: " << edad << "años" << endl;
 	}
 	void actualizarEdad(int nuevaEdad) {
 		edad = nuevaEdad;
