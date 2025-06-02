@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-//Paola Carolina Peña Ibarra
+//Paola Carolina Peña Ibarra 362323156
 class DeporteConBalon {
 public:
     // Atributos
