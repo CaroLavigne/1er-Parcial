@@ -2,7 +2,7 @@
 #include <cmath> // Para usar sqrt()
 
 using namespace std;
-
+//Paola Carolina Peña Ibarra 362323156
 int main() {
     float a, b, c, perimetro;
     
