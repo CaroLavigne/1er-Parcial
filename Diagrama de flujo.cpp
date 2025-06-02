@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+//Paola Carolina Peña Ibarra 362323156
 int main() {
 	string caracte[5];
 	string estado = "s0";
