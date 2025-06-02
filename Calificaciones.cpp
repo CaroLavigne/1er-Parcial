@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <limits>
 
+//Paola Carolina Peña Ibarra
 using namespace std;
 
 struct Materia {
